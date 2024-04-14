@@ -21,6 +21,9 @@ public class MainTrain {
 		// }
 		
 		System.out.println("done");
+		Expression exp = new Plus(new Number(4), new Number(5));
+		System.out.println(exp.calculate());
+
 	}
 
 }
